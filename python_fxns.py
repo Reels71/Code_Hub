@@ -1,0 +1,21 @@
+#learning various functions in python
+
+print("lionel \"messi\"") 
+player = ("lionel messi")
+print (player.upper().isupper())
+print (len(player))
+print (player[10])
+print (player.index("es"))
+print (player.replace("lionel", "christiano")),(player.replace ("messi", "ronaldo"))
+print (player.replace("messi", "ronaldo"))
+print (-6.565746)
+my_num = 30
+print (str(my_num) + " is my fav number")
+football_name = input("what's your name: ")
+football_age = input("what's your football age: ")
+position = input("what position do you play: ")
+print ("my name is " + football_name + " i am " + str(football_age) + "years old, and my position on the pitch is " + str(position))
+num1 = input("enter a number: ")
+num2 = input("enter another number: ")
+result = int(num1) * float(num2)
+print (result)
